@@ -2,10 +2,10 @@
 # numbers.sh
 # Darren Pak
 
-echo "Please enter a psotive number: "
+echo "Please enter a positive number: "
 read -r NUM
 X=1
-while [ "$X" -le "$NUMS" ]
+while [ "$X" -le "$NUM" ]
 do
 	if [ $((X%2)) -eq 0 ]
 	then 
